@@ -1,0 +1,33 @@
+# ---- Secrets / Environment ----
+.env
+*.env
+*.env.*
+**/secrets.dart
+**/*secrets*.dart
+**/*.pem
+**/*.p12
+**/*.key
+**/*.crt
+**/*.jks
+**/key.properties
+**/google-services.json
+**/GoogleService-Info.plist
+
+# If you keep a Python token server
+/server/.env
+/server/.venv/
+/server/__pycache__/
+/server/**/*.pyc
+
+# ---- iOS/CocoaPods (keep Podfile & Podfile.lock, ignore Pods dir) ----
+ios/Pods/
+macos/Pods/
+
+# ---- Android signing artifacts ----
+**/*.keystore
+**/*.keystore.*
+**/*.jks
+
+# ---- Build / Coverage (extra safety) ----
+coverage/
+lcov.info

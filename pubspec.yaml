@@ -1,0 +1,29 @@
+name: flutter_stream
+description: Simple chat example with Stream Chat Flutter
+version: 0.1.0
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # مكتبة الشات الرسمية والمدعومة
+  stream_chat_flutter: ^8.0.0
+
+  # state management حديث
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+dependency_overrides:
+  image_gallery_saver_plus: ^4.0.0
+
+
+
+
+
