@@ -140,6 +140,7 @@ Flutter app → uses only the public key
 
 📸 Screenshots
 
+<img width="445" height="933" alt="Screenshot 2025-10-05 042726" src="https://github.com/user-attachments/assets/9e74786d-f67c-4123-aae4-f7a05f4c1a19" />
 
 
 📄 License
