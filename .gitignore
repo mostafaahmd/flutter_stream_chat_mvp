@@ -43,3 +43,24 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Python / Server related
+server/.env
+server/.venv/
+__pycache__/
+*.pyc
+
+# Secrets and environment
+*.env
+*.key
+*.pem
+*.jks
+*.keystore
+key.properties
+
+# Build & cache safety (redundant but ensures cleanliness)
+build/
+.dart_tool/
+ios/Pods/
+android/.gradle/
+
