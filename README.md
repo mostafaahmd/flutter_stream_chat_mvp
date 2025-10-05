@@ -23,6 +23,13 @@ while the **server holds the secret** and generates scoped user tokens on demand
 
 ---
 
+
+📸 Screenshots
+
+<img width="445" height="933" alt="Screenshot 2025-10-05 042726" src="https://github.com/user-attachments/assets/9e74786d-f67c-4123-aae4-f7a05f4c1a19" />
+
+---
+
 ## 🧭 **Architecture Overview**
 ```text
 Flutter App (StreamChatClient + UI)
@@ -37,9 +44,6 @@ Tiny Python Server (Flask)
 Stream (Hosted Chat Backend)
 
 
-📸 Screenshots
-
-<img width="445" height="933" alt="Screenshot 2025-10-05 042726" src="https://github.com/user-attachments/assets/9e74786d-f67c-4123-aae4-f7a05f4c1a19" />
 
 📦 Project Structure
 
