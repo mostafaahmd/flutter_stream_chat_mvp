@@ -1,33 +1,45 @@
-# ---- Secrets / Environment ----
-.env
-*.env
-*.env.*
-**/secrets.dart
-**/*secrets*.dart
-**/*.pem
-**/*.p12
-**/*.key
-**/*.crt
-**/*.jks
-**/key.properties
-**/google-services.json
-**/GoogleService-Info.plist
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
 
-# If you keep a Python token server
-/server/.env
-/server/.venv/
-/server/__pycache__/
-/server/**/*.pyc
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
 
-# ---- iOS/CocoaPods (keep Podfile & Podfile.lock, ignore Pods dir) ----
-ios/Pods/
-macos/Pods/
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
 
-# ---- Android signing artifacts ----
-**/*.keystore
-**/*.keystore.*
-**/*.jks
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
 
-# ---- Build / Coverage (extra safety) ----
-coverage/
-lcov.info
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
